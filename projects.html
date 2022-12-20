@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="apple-touch-icon" sizes="180x180" href="./favicon_package_v0.16/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./favicon_package_v0.16/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./favicon_package_v0.16/favicon-16x16.png">
+        <link rel="manifest" href="./favicon_package_v0.16/site.webmanifest">
+        <link rel="mask-icon" href="./favicon_package_v0.16/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Spencer W Blahey</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1" user-scalable="false">
+        
+        <link rel="stylesheet" href="/Styles/otherstyles.css">
+        <link rel="stylesheet" href="/Styles/navstyles.css">
+        <link rel="stylesheet" href="/Styles/snowstyles.css">
+
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+        <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+        
+        <script type="module" src="/script.js"></script>
+
+        <nav class="navbar" style="overflow: hidden; z-index: 5;">
+
+            <div class="snow" style="z-index: -1;">
+                <div></div>
+            </div>
+
+            <div class="brand-title"><a href="index.html">Spencer Blahey</a></div>
+
+            <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+              </a>
+              <div class="navbar-links">
+                <ul>
+                  <li><a href="index.html">HOME</a></li>
+                  <li><a href="projects.html" style="text-decoration: underline; text-decoration-color:#891C1C; text-decoration-thickness: 1.2px;">PROJECTS</a></li>
+                  <li><a href="gap.html">GAP YEAR</a></li>
+                  <li><a href="cv.html">RESUME</a></li>
+                  <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+              </div>
+        </nav>
+
+    </head>
+    <body>
+        <div class="main-bg">
+            <h1 class="aboutme">Projects</h1>
+            <div class="projectoutline">
+
+                <div class="porganizer">
+                    <div class="porgleft">
+                        <h2 class="projecttitle">Ergonomic Workspace Analysis</h2>
+                        <h3 class="projectsub1">Duration: 1 Month</h3>
+                        <h3 class="projectsub2">Team Size: 1</h3>
+                    </div>
+                    <div class="porgright">
+                        <div class="wordlink">
+                            <a href="/DownloadFiles/WorkspaceFINAL_20063969.docx" target="_blank"><img src="/Photos/WordIcon.png" class="plinks"/></a>
+                            <p class="linktext">Click me!</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="projectsplitter">
+                    <div class="projectright">
+                        <model-viewer src="/HumanCAD_Model.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="1" auto-rotate camera-orbit="280.9deg 82.72deg 4.492m" field-of-view="24.56deg" class="projectdisplay">
+                            <div class="progress-bar hide" slot="progress-bar">
+                                <div class="update-bar"></div>
+                            </div>
+                        </model-viewer>
+                    </div>
+                    <div class="projectleft">
+                        <h3 class="projectdescriptions">Background</h3>
+                        <p class="projectdiscussion">The goal of the course-based project was to develop and model a practical workspace while applying the ergonomic principles of design. It was up to the student to select the environment that would act as the basis for development. Having grown up in a mining community, many friends and extended family members were employed by Newmont’s open-pit gold mine. Thus, over the years I heard endless complaints of the working conditions, especially from the haul truck operators who drove through twelve hour shifts. </p>
+                        
+                        <h3 class="projectdescriptions">Problem Definition</h3>
+                        <p class="projectdiscussion">The state of the haul truck operator cabins at the local mine site had become outdated, which led to unsatisfied employees, complaints towards management and ultimately diminished production. It was time for a mitigation solution to be put in place. An ergonomic analysis of the workspace was performed, and an improved design was created.  </p>
+                        
+                        <h3 class="projectdescriptions">Design Takeaways</h3>
+                        <ol class="projectlist">
+                            <li class="listelement"><span style="font-weight: 900; color: #891C1C;">Surface Contouring:</span> At the core of the design were the control surfaces. These were driven by the anthropometric reach envelopes of a 75th quartile male subject (trivial). Also factored in was an individual's sight line given the height of the cabin from the driving surface.</li>
+                            <li class="listelement"><span style="font-weight: 900; color: #891C1C;">Control Layout:</span> Several different options were available to guide the layout of operator controls. Given the lack of dexterity required for any of the actions, a frequency-based design was chosen, in which more highly used items were centralized.</li>
+                            <li class="listelement"><span style="font-weight: 900; color: #891C1C;">Lighting Analysis:</span> Using the light levels recorded throughout a nightshift, it was determined that the cabin lighting was insufficient to see all working surfaces and controls effectively. A series of equations were used to determine the appropriate lamps (i.e. colour and intensity) to produce the desired luminance level in the cabin.</li>
+                            <li class="listelement"><span style="font-weight: 900; color: #891C1C;">Sound Analysis:</span>  In the current state, the operator was exposed to 102 dBA of sound. By OHSA regulations, this would be permissible for only 1.5 hours and cause permanent hearing damage otherwise. Further sealing was implemented around the cabin windows, and recommendations were provided for hearing protection to diminish the level beneath the 90dBA limit.</li>
+                            <li class="listelement"><span style="font-weight: 900; color: #891C1C;">Seat Selection:</span> To lessen the extent of whole-body vibrations, and minimize back pain, an air-ride suspension chair was implemented. Built-in to the design are ample adjustment points such that the operator can tailor the seat to their needs.
+                            </li>
+                        </ol>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="projectoutline">
+            
+                <div class="porganizer">
+                    <div class="porgleft">
+                        <h2 class="projecttitle">2 Stage Shifting Gearbox</h2>
+                        <h3 class="projectsub1">Duration: 2 Months</h3>
+                        <h3 class="projectsub2">Team Size: 4</h3>
+                    </div>
+                    <div class="porgright">
+                        <div class="wordlink">
+                            <a href="/DownloadFiles/Group301_Phase04_Report.pdf" target="_blank"><img src="/Photos/PDFIcon.png" class="plinks"/></a>
+                            <p class="linktext">Click me!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="projectsplitter">
+                    <div class="projectright">
+                        <model-viewer src="/FinalGearboxModel.glb" ar ar-modes="scene-viewer webxr quick-look" camera-orbit="-40.05deg 73.35deg 3.157m" field-of-view="17.69deg" camera-controls poster="poster.webp"  shadow-intensity="1" auto-rotate class="projectdisplay">
+                            <div class="progress-bar hide" slot="progress-bar">
+                                <div class="update-bar"></div>
+                            </div>
+                        </model-viewer>
+                    </div>
+                    <div class="projectleft">
+                        <h3 class="projectdescriptions">Background</h3>
+                        <p class="projectdiscussion">As a capstone machine design project, our team was tasked with developing a polymer gearbox to drive a small-scale electric vehicle. The parts were to be 3D printed and foster assembly using interlocking joints, as well as sourced fasteners and bearings. The overall structure was confined to particular volumetric dimensions such that it would fit within the provided vehicle. Lastly, a competition was staged to test two aspects of the design. The first being a horizontal gate-to-gate time, in which success correlated to a greater acceleration and top-speed. The other being a curved-hill climb, where torque and a larger normal force would produce a higher result.</p>
+                        
+                        <h3 class="projectdescriptions">Problem Definition</h3>
+                        <p class="projectdiscussion">The goal was reached through the solution of several smaller problems. The competition scenarios first had to be modeled to determine the output torque required. This value could then be used to work backwards, and decide upon a gearing ratio to transform the input torque. The next challenge was developing part models for gears and shafts to accommodate the chosen ratio. Following this, and having an understanding of the radial and axial loads to be experienced, we also had to decide upon fasteners and bearings to support the design. Lastly, we had to design the housing to support all of the components, and cut its volume to a minimum being allotted only a scarce amount of SLA printing time. </p>
+                        
+                        <h3 class="projectdescriptions">Design</h3>
+                        <ul class="projectlist">
+                            <li class="listelement"><span style="font-weight: 900; color: #891C1C;">System Modeling: </span>Recognizing that the system’s electric motor responded dynamically to the given loading, static modeling of the competition scenarios was rendered obsolete. Thus, a momentum update method was applied in MATLAB to see how the torque output would vary over time. We could then simulate each trial from start to completion while altering input variables. A range of gearing ratios and onboard masses (to alter normal force) were applied to see how the results would vary.</li>
+                            <li class="listelement"><span style="font-weight: 900; color: #891C1C;">Gear Ratio Selection:</span>I implemented a nested ‘for’ loop in MATLAB that would test a specified range of gear ratios for 3 different loading conditions (500g, 1kg, 1.5kg). It would then add a series to a plot which was used to identify the optimal combination. This was the first time that I realized the ideal solution for one competition was far from that of the other, imposing the need for a sliding mechanism. It also quickly became evident that to succeed in the hill climb event a two-stage gearbox would be required given the large ratio required and the volumetric constraint on our enclosure.</li>
+                            <li class="listelement"><span style="font-weight: 900; color: #891C1C;">Gear Design:</span>Having the desired ratios, the next challenge was then coming up with pitch circle diameters to accommodate. This proved to be quite difficult given the major reduction required for the hill-climb event, and the overdrive for the speed event. Further, we had to apply AGMA calculations to determine the minimum teeth required on each gear to avoid interference, and the face-widths to accommodate the torque loading.</li>
+                            <li class="listelement"><span style="font-weight: 900; color: #891C1C;">Shaft Design: </span>The shaft design proved to be more straightforward. We had a concrete vision for the sliding mechanism, which defined the spline lengths and retaining ring locations. Also, using the forecasted radial and torsional loading, the required shaft diameter could be determined along its length using basic calculations at points of stress concentration.</li>
+                            <li class="listelement"><span style="font-weight: 900; color: #891C1C;">Housing Design: </span>The housing walls were the last components to be designed. ANSYS was used to simulate the radial loadings applied where the shafts were supported. This led to multiple iterations of the structure, each reducing the amount of material and weight further. It was important that we preserved our desired safety factor minimum of 2 while meeting the additive manufacturing time constraint.</li>
+                        </ul>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="projectoutline">
+
+                <div class="porganizer">
+                    <div class="porgleft">
+                        <h2 class="projecttitle">Autonomous Aeroponic Farming System</h2>
+                        <h3 class="projectsub1">Duration: 1 Year</h3>
+                        <h3 class="projectsub2">Team Size: 12</h3>
+                    </div>
+                    <div class="porgright">
+                        <div class="wordlink">
+                            <a href="https://www.qvft.ca/" target="_blank"><img src="/Photos/QVFT2.png" class="plinks"/></a>
+                            <p class="linktext">Click me!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="projectsplitter">
+                    <div class="projectright">
+                        
+                        <div class="slider">
+  
+                    
+                            <div class="slides">
+                              <div id="slide-1">
+                                <img class="sliderimages" src="/Photos/VF1.png" alt="farm picture 1">
+                              </div>
+                              <div id="slide-2">
+                                <img class="sliderimages" src="/Photos/VF2.png" alt="farm picture 2">
+                              </div>
+                              <div id="slide-3">
+                                <img class="sliderimages" src="/Photos/VF3.png" alt="farm picture 3">
+                              </div>
+                              <div id="slide-4">
+                                <img class="sliderimages" src="/Photos/VF4.png" alt="farm picture 4">
+                              </div>
+                              <div id="slide-5">
+                                <img class="sliderimages" src="/Photos/VF5.png" alt="farm picture 5">
+                              </div>
+                            </div>
+                        </div>
+
+
+                        <p class="displaydescription34">The final farm CAD assembly at my time of departure. <span style="font-weight: 900; color: navy;">(Slide the red bar)</span> </p>
+                    </div>
+                    <div class="projectleft">
+                        <h3 class="projectdescriptions">Background</h3>
+                        <p class="projectdiscussion">Due to trends such as climate change, freshwater depletion, and soil degradation, arable land per capita will fall to one-third of the amount available in 1970 by 2050. The unsustainable practices of conventional agriculture exacerbate these issues. In addition, the world population is expected to increase from 7.7 billion (2019) to 9.7 billion (2050). The intersection of these climate and population challenges means that global food security depends on our ability to adapt to increased demand and develop more effective farming techniques.</p>
+                        
+                        <h3 class="projectdescriptions">Problem Definition</h3>
+                        <p class="projectdiscussion">Vertical farming is a cultivation practice in which crops are grown in an indoor, climate- controlled facility. This approach is associated with dramatically reduced water consumption, minimal transportation costs, and massive improvements in per-acre land productivity. The Queen’s Vertical Farming Team came to fruition as the first university venture with the goal of designing and building a functional, software-automated aeroponic vertical farm.</p>
+                        
+                        <h3 class="projectdescriptions">Design</h3>
+                        <p class="projectdiscussion">During my time on the team, I unfortunately never saw the project come to the physical realm. However, I made many contributions that served as a foundation for future years. The items are listed in order of progression.</p>
+                        <ul class="projectlist">
+                            <li class="listelement"><span style="font-weight: 900; color: #891C1C;">Systems Design: </span>Through hours of conversation with individuals in the space, scholarly research, and YouTube videos, our initial team of 4 formulated a list of components to be included in the system. We then began sketching a rough outline of how the relationships might look on paper, and this progressed to a 2D flowchart in Microsoft Visio. </li>
+                            <li class="listelement"><span style="font-weight: 900; color: #891C1C;">Front-End Development:</span>Early-on, I also contributed to the front-end design of our website. I developed mock-ups of how it might look, and assisted with the initial build using a simple HTML/CSS framework.</li>
+                            <li class="listelement"><span style="font-weight: 900; color: #891C1C;">Sponsorship:</span>Having a website and systems diagram, we had ground to seek funding. Myself and the team’s founder scheduled numerous interviews with local vendors and Queen’s executives to present our vision and build relationships. We received over $2500 worth of donations, were ratified as a Queen’s club, and even offered a full-scale farm (>$200,000) if we were to partner with ZipGrow, a local supplier.</li>
+                            <li class="listelement"><span style="font-weight: 900; color: #891C1C;">Team Growth: </span>The ball was rolling, and it was appropriate to multiply the number of passionate minds working on the problem. I assisted with interviewing potential candidates, running team meetings, developing weekly schedules, and managing a team of 4 mechanical designers.</li>
+                            <li class="listelement"><span style="font-weight: 900; color: #891C1C;">Process Computations: </span>Based on the desired capacity of our growth basin, the rest of our system could then be sized accordingly. The preliminary calculations were performed in MATLAB leveraging fluid mechanics equations, and sourcing from component operations manuals. We developed a Bill of Materials (BOM) including the selected products and any custom fabrication that was required. This also enabled the creation of our first budget estimation (~$4000).</li>
+                            <li class="listelement"><span style="font-weight: 900; color: #891C1C;">CAD Modeling & ANSYS: </span>Utilizing a strong team of mechanical engineers, we pieced together the first iteration of a systems assembly in SolidWORKS. This allowed us to visualize how all of our selected components would fit together, and made clear that we had several modifications to make in terms of interferences. It also gave the ability to perform ANSYS simulations on any weight bearing components, like the growth basin structure, validating their designs.  </li>
+                        </ul>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="projectoutline">
+                <h2 class="projecttitle">IoT Underground Fleet Data Analysis</h2>
+                <h3 class="projectsub1">Duration: 2 Month</h3>
+                <h3 class="projectsub2">Team Size: 1</h3>
+                <div class="projectsplitter">
+                    <div class="projectleft">
+                        <h3 class="projectdescriptions">Background</h3>
+                        <p class="projectdiscussion">Mining is a production driven industry that has slowly begun to leverage technology within its operations. During a past internship, the company I worked for placed a major investment into Newtrax IoT technology. The underground employees received modified headlamps, the equipment received transponders, and the system of tunnels received network beacons. The devices worked together to monitor the locations of personnel in the mine over time, and satisfied the initial purpose of the procurement, being collision avoidance. However, soon after, the operations team began to look for alterior benefits.</p>
+                        
+                        <h3 class="projectdescriptions">Problem Definition</h3>
+                        <p class="projectdiscussion">I was assigned the role of figuring out what those production based benefits might be. Available for use were endless libraries of position-time data for each employee and every piece of equipment. I had to first determine how to optimally extract and parse through the data to group the entries of interest. I then had to determine which “questions” could feasibly be asked to the data to produce a useful response. Lastly, I had to develop methods to collect the results into summarized displays such that the operations team could use the results to drive action.</p>
+                        
+                        <h3 class="projectdescriptions">Design</h3>
+                        <ul class="projectlist">
+                            <li class="listelement"><span style="font-weight: 900; color: #891C1C;">Data Extraction/Management: </span>The Newtrax purchase also included software to manage the installed network. Thankfully, the software built-in an extraction button to produce csv files of the historical data. My first goal upon reading the data to excel was mapping each entry to a crew, day or night shift, and equipment class. The crew letter and type of shift could be indexed from a date-time crew schedule (i.e. A,B,C or D) and the equipment class (i.e. haul trucks, scoops, etc.) could be assigned based on the included equipment number.</li>
+                            <li class="listelement"><span style="font-weight: 900; color: #891C1C;">Algorithm Development:</span>From here, algorithms were built to assess production efficiency proxies like haulage cycles per day, length of fueling trips, lunch or break times, among many other operations. This process was heavily driven by pattern recognition within the data, and node locations within the mine network. As an example, to decipher one haulage trip, a home-base would first be set as the dumping location. Next, the developed formulas would keep track of how many mine levels were driven (i.e. one level is 50 meters). An ‘if’ statement could then be applied such that if the truck drove more than 200 meters up or down, and returned to homebase, the counter would perceive this activity as a trip, increasing its total.</li>
+                            <li class="listelement"><span style="font-weight: 900; color: #891C1C;">Collation of Results:</span> The project became even more interesting once I began using Power BI to showcase the results, tying in some of the filters I previously spoke upon. Again, using haulage cycles as an example, one could compare the total trips across each day of the week, between day shift and night shift, or even between crews. Seeing visually apparent trends in the data and being able to directly compare productivity through different actions was incredibly beneficial to operations. Years later, this is still one of my favorite projects up to date.</li>
+                        </ul>
+                    </div>
+                    <div class="projectright">
+                        <div class="newmontcontainer">
+                            <img src="/Photos/Newmont.jpeg" class="newmontlogo"/>
+                        </div>
+
+                        <p class="displaydescription34">Unfortunately, given privacy agreements with the company, I am unable to showcase any of the project results or underground photos of the Newtrax equipment.</p>
+                    
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </body>
+    <footer class="footerprojects">
+        <div class="split5">
+            <p><span>&copy</span> &nbsp2022-Present Spencer Blahey. All Rights Reserved.</p>
+        </div>
+        <div class="split6">
+            <a href="contact.html" class="contact">Contact Me</a>
+        </div>
+    </footer>
+</html>
+
