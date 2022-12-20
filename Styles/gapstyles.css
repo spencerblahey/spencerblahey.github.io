@@ -1,0 +1,203 @@
+
+h1, h2 {
+    color: #891C1C;
+}
+
+.gapoutline {
+    width: 90vw;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 30px;
+}
+
+.gapoutline:hover{
+    transform: scale(1.01);
+    -webkit-transform: scale(1.01); 
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.gaph3{
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 0px;
+    min-width: 275px;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+.position{
+    margin-left: 30px;
+    margin-top: 3px;
+    min-width: 275px;
+}
+
+.gorganizer1{
+    display: flex;
+    min-width: 0;
+}
+
+.gorganizer2{
+    display: flex;
+    min-width: 0;
+}
+
+.gsplitl{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.gsplitr{
+    width: 50%;
+}
+
+.gsplit3{
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 50%;
+}
+
+.gsplit4{
+    width: 50%;
+}
+
+.gsplit5{
+    padding-left: 30px;
+    width: 50%;
+}
+
+.gsplit6{
+    width: 50%;
+}
+
+.ulgap{
+    margin-left: 20px;
+}
+
+.glogos{
+    margin-top: 20px;
+    margin-right: 30px;
+
+    position: relative;
+    display: block;
+    width: 12%;
+    min-width: 60px;
+}
+
+.glogosdivs{
+    display: flex;
+    justify-content: end;
+}
+
+.WAimg{
+    position: relative;
+    display: block;
+    width: 50%;
+    min-width: 250px;
+    border-radius: 5%;  
+    justify-content: center;
+    margin: auto;
+    
+}
+
+.SSimg{
+    position: relative;
+    display: block;
+    width: 50%;
+    min-width: 250px;
+    border-radius: 5%;  
+    justify-content: center;
+    margin: auto;
+}
+
+.Rimg{
+    position: relative;
+    display: block;
+    width: 50%;
+    min-width: 250px;
+    border-radius: 5%;  
+    justify-content: center;
+    margin: auto; 
+}
+
+.Spainimg{
+    position: relative;
+    display: block;
+    width: 30%;
+    min-width: 250px;
+    border-radius: 5%;  
+    justify-content: center;
+    margin: auto;
+}
+
+.Ausimg{
+    position: relative;
+    display: block;
+    width: 60%;
+    min-width: 250px;
+    border-radius: 5%;  
+    justify-content: center;
+    margin: auto;  
+}
+
+.Norimg{
+    position: relative;
+    display: block;
+    width: 30%;
+    min-width: 250px;
+    border-radius: 5%;  
+    justify-content: center;
+    margin: auto;   
+}
+
+.PicCap{
+    text-align: center;
+    font-style: italic;
+}
+
+
+#TAGLogo{
+    width: 8%;
+}
+
+#REOLogo{
+    width: 17%;
+    margin-top: 30px;
+}
+
+#Norway{
+    margin-bottom: 30px;
+}
+
+.ligap{
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 820px) {
+    .gorganizer2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #split3{
+        width: 80%;
+        margin: auto;
+    }
+
+    #split4{
+        width: 90%;
+        margin: auto;
+    }
+
+    #split5{
+        width: 90%;
+        margin: auto;
+    }
+
+    #split6{
+        width: 90%;
+        margin: auto;
+    }
+}
