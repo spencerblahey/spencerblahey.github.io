@@ -237,6 +237,12 @@ a {
     box-shadow: 0 5px 15px rgba(0,0,0,0.3);
 }
 
+.homeorg2:hover{
+    -webkit-transform: scale(1.01);
+    transform: scale(1.01);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
 
 .organizer{
     display: flex;
