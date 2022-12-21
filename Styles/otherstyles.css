@@ -459,7 +459,6 @@ model-viewer{
     padding: 10px;
     border-radius: 20px;
     background-color: #f6f6f6;
-    
 }
   
 .porganizer{
@@ -514,7 +513,7 @@ model-viewer{
     text-align: center;
 }
 
-@media screen and (max-width: 780px){
+@media screen and (max-width: 860px){
     
 
 
@@ -574,6 +573,13 @@ model-viewer{
         align-items: center;
         font-size: 100px;
       }
+
+      .listelement{
+        margin: 0px 0px 15px 0px;
+        padding: 10px;
+        border-radius: 20px;
+        background-color: #f6f6f6;
+    }
 }
 
 @media screen and (max-width: 860px){
@@ -600,7 +606,12 @@ model-viewer{
 }
 
 #contactcard{
-    margin: 20px;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 5%;
+    margin: auto;
+    align-items: center;
+    margin-top: 40px;
 }
 
 .contactorganizer{
