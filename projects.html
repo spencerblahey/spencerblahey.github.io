@@ -73,10 +73,12 @@
                 
                 <div class="projectsplitter">
                     <div class="projectright">
-                        <model-viewer src="HumanCAD_Model.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="1" auto-rotate camera-orbit="280.9deg 82.72deg 4.492m" field-of-view="24.56deg" class="projectdisplay">
+                        <model-viewer src="HumanCAD_Model.glb" id="lazy-load" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="1" auto-rotate camera-orbit="280.9deg 82.72deg 4.492m" field-of-view="24.56deg" class="projectdisplay">
                             <div class="progress-bar hide" slot="progress-bar">
                                 <div class="update-bar"></div>
                             </div>
+                            <div id="lazy-load-poster" slot="poster"></div>
+                            <div id="button-load" slot="poster">Load 3D Model</div>
                         </model-viewer>
                     </div>
                     <div class="projectleft">
@@ -117,10 +119,12 @@
 
                 <div class="projectsplitter">
                     <div class="projectright">
-                        <model-viewer src="FinalGearboxModel.glb" ar ar-modes="scene-viewer webxr quick-look" camera-orbit="-40.05deg 73.35deg 3.157m" field-of-view="17.69deg" camera-controls poster="poster.webp"  shadow-intensity="1" auto-rotate class="projectdisplay">
+                        <model-viewer src="FinalGearboxModel.glb" id="lazy-load" ar ar-modes="scene-viewer webxr quick-look" camera-orbit="-40.05deg 73.35deg 3.157m" field-of-view="17.69deg" camera-controls poster="poster.webp"  shadow-intensity="1" auto-rotate class="projectdisplay">
                             <div class="progress-bar hide" slot="progress-bar">
                                 <div class="update-bar"></div>
                             </div>
+                            <div id="lazy-load-poster" slot="poster"></div>
+                            <div id="button-load" slot="poster">Load 3D Model</div>
                         </model-viewer>
                     </div>
                     <div class="projectleft">
