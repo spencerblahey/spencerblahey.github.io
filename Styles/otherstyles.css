@@ -181,6 +181,7 @@ a {
 .contacttext{
     margin: 0 40px 30px;
     padding: 0px;
+    line-height: 17pt;
 }
 
 .contacticons{
@@ -201,6 +202,7 @@ a {
 .projectdiscussion{
     margin: 20px 30px;
     color: #656566;
+    line-height: 17pt;
 }
 
 
@@ -406,7 +408,7 @@ model-viewer{
 .contactcard{
     border-style: solid;
     border-width: thin;
-    border-radius: 5%;
+    border-radius: 30px;
     margin: auto;
     align-items: center;
     margin: 50px 55px;
@@ -473,10 +475,10 @@ model-viewer{
 }
 
 .porgright{
-    width: 50%;
+    width: 30%;
 }
 
-.plinks{
+.plinks1{
     position: relative;
     display: block;
     width: 12%;
@@ -484,7 +486,20 @@ model-viewer{
     text-align: center;
 }
 
-.plinks:hover{
+.plinks1:hover{
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.plinks2{
+    position: relative;
+    display: block;
+    width: 12%;
+    min-width: 60px;
+    text-align: center;
+}
+
+.plinks2:hover{
     -webkit-transform: scale(1.05);
     transform: scale(1.05);
 }
@@ -524,7 +539,7 @@ model-viewer{
     background-repeat: no-repeat;
     background-position: center;
   }
-  
+
   #button-load {
     background-image: url("../../assets/ic_get_app_white_24dp.svg");
     background-repeat: no-repeat;
@@ -612,6 +627,33 @@ model-viewer{
         border-radius: 20px;
         background-color: #f6f6f6;
     }
+
+    .plinks1{
+        position: relative;
+        display: block;
+        width: 8%;
+        min-width: 45px;
+        text-align: center;
+    }
+
+    .contactorganizer2{
+        display: flex;
+        min-width: 0;
+        padding: 0px;
+        margin: 0 auto;
+    }
+
+    .split3{
+        padding-left: 10px;
+        width: 5%;
+        margin-right: 0px;
+    }
+
+    .contactmethod{
+        margin-top: 19px;
+        margin-bottom: 10px;
+        font-size: 10pt;
+     }
 }
 
 @media screen and (max-width: 860px){
@@ -640,7 +682,7 @@ model-viewer{
 #contactcard{
     border-style: solid;
     border-width: thin;
-    border-radius: 5%;
+    border-radius: 30px;
     margin: auto;
     align-items: center;
     margin-top: 40px;

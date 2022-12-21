@@ -294,7 +294,7 @@ a {
     width: 50vw;
     align-items: center;
     margin: 20px;
-    margin-left: 50px;
+    margin-left: 20px;
 
 }
 
@@ -374,13 +374,14 @@ a {
 
 .motivatortext{
     padding-bottom: 5px;
+    line-height: 17pt;
 }
 
 .DITL{
     display: block;
     width: 80%;
     margin: 30px auto;
-    min-width: 300px;
+    min-width: 275px;
 }
 
 .DITLhead{
@@ -392,6 +393,7 @@ a {
 .DITLtext{
     margin-left: 60px;
     margin-right: 60px;
+    line-height: 17pt;
 }
 
 #back {
